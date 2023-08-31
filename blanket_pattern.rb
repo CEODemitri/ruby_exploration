@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 # colors = "RRGGBBYYKK"
 # lines = 20
 
@@ -72,3 +74,27 @@ end
 #     abc = supporters + leader
 #     puts abc
 # end
+
+
+# #  Attempt 7
+# banner = "Pooo**ooo!@|"
+# lines = 21
+
+# lines.times do |i|
+#     leader = banner[0]
+#     supporters = banner[1..-1]
+#     banner = supporters + leader
+#     puts banner
+# end
+
+# Attempt 8 
+rhythm = "1oo--__oo"
+lines = 15
+
+lines.times do |i|
+    leader = rhythm[0]
+    supporters = rhythm[1..-1]
+    rhythm = supporters + leader
+    puts rhythm
+end
+
