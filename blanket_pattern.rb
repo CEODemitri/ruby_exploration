@@ -98,3 +98,19 @@ lines.times do |i|
     puts rhythm
 end
 
+# Atetmpt 9
+# define the base pattern
+designer = "3--o-o--E"
+# how many lines to print/also how many times to run the loop to create the pattern
+lines = 25
+
+# using the lines value(for loop) run this amount of times
+lines.times do |i|
+    # pull the first character and save as variable
+    first = designer[0]
+    # contain remaining characters in a separate value
+    rest = designer[1..-1]
+    # concantenate the two new variables and replace the old value of orginal design
+    designer = rest + first
+end
+    
