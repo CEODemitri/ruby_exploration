@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+# RUN A RUBY PROGRAM 'ruby ###.rb'
+
 # colors = "RRGGBBYYKK"
 # lines = 20
 
@@ -113,4 +115,26 @@ lines.times do |i|
     # concantenate the two new variables and replace the old value of orginal design
     designer = rest + first
 end
-    
+
+
+# # Attempt 10
+# logic = "{_}---906---{_}"
+# lines = 25 
+
+# lines.times do |i|
+#     leader = logic[0]
+#     supporters = logic[1..-1]
+#     logic = supporters + leader
+#     puts logic
+# end
+
+# Attempt 10
+puzzle = "_==|^-^|==_"
+lines = 30
+
+lines.times do |i|
+    first = puzzle[0]
+    last = puzzle[1..-1]
+    puzzle = last + first
+    puts puzzle
+end
