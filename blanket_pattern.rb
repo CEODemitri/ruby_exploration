@@ -128,13 +128,25 @@ end
 #     puts logic
 # end
 
-# Attempt 10
-puzzle = "_==|^-^|==_"
-lines = 30
+# # Attempt 10
+# puzzle = "_==|^-^|==_"
+# lines = 30
+
+# lines.times do |i|
+#     first = puzzle[0]
+#     last = puzzle[1..-1]
+#     puzzle = last + first
+#     puts puzzle
+# end
+
+# Attempt 11 : this should be cemented in my memory by now
+pattern = "i--)__0+0__(--i)"
+lines = 25
 
 lines.times do |i|
-    first = puzzle[0]
-    last = puzzle[1..-1]
-    puzzle = last + first
-    puts puzzle
+    first = pattern[0]
+    last = pattern[1..-1]
+    pattern = last + first
+    puts pattern
 end
+
