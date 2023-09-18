@@ -58,7 +58,7 @@ puts ([1, 2, 3] & [2, 3, 4])
 puts [1, 2, 3].length
 puts [31, 4, 8].sort
 puts [1, "one", 5, 7, 1, "one", "open"].compact
-puts [4, 9, 20],index(9)
+puts [4, 9, 20].index(9)
 puts [1, 4, 6, 8].rotate(2)
 puts [[1, 2, 3], [4, 5, 6], [7, 8, 9]].transpose
 puts ["We", "are", "one"].join(" ")
