@@ -150,3 +150,14 @@ lines.times do |i|
     puts pattern
 end
 
+
+# Attempt 13 {skipping number before, political reasons}
+river = "~^^-~^^~~_^^^~"
+lines = 20
+
+lines.times do |i|
+    first = river[0]
+    children = river[1..-1]
+    river = children + first
+    puts children + first
+end
