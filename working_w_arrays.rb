@@ -76,3 +76,26 @@ puts [4, 9, 20].index(9)
 puts [1, 4, 6, 8].rotate(2)
 puts [[1, 2, 3], [4, 5, 6], [7, 8, 9]].transpose
 puts ["We", "are", "one"].join(" ")
+
+
+# making a new array
+def new_array(input_string_1, input_string_2, input_string_3)
+    result = ""
+    result = [input_string_1, input_string_2, input_string_3]
+    return result
+end
+
+puts new_array("Howdy", "Hello", "Hey")
+
+
+
+# Interleaving
+def interleaving(input_string_1, input_string_2)
+    result = ""
+    result = [input_string_1, input_string_2] * 5
+    return result
+end
+
+puts interleaving("yes", "no")
+puts interleaving("yes", "no").class
+
