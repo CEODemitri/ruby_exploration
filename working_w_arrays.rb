@@ -15,6 +15,9 @@ array = ["A String", 1, true, :symbol, 2]
         puts :hello.object_id
         puts :hello.object_id
 
+        puts :radio
+        puts :radio
+
 
 # Array
 # two dimensional or nested array that represents the structure of number keys on a phone
@@ -55,9 +58,20 @@ puts ["Ruby", "Monstas"] * 3
 # Finding the intersection
 puts ([1, 2, 3] & [2, 3, 4])
 
+# .length
 puts [1, 2, 3].length
+enormous = [2, "apple", true, 4, 5]
+puts "How many chars in this variable? " + (enormous.length).to_s
+puts [3, 3, 7, 8, 9].length
+
+
 puts [31, 4, 8].sort
+calendar = [6, 7, 14, 5, 8, 10, 1, 3]
+puts calendar.length
+
 puts [1, "one", 5, 7, 1, "one", "open"].compact
+puts [3, 6, 5, 5, 1].compact
+
 puts [4, 9, 20].index(9)
 puts [1, 4, 6, 8].rotate(2)
 puts [[1, 2, 3], [4, 5, 6], [7, 8, 9]].transpose
