@@ -53,6 +53,7 @@ puts result
 results = [1, 1, 2, 3, 4] - [1, 2]
 puts results
 
+# interleaving
 puts ["Ruby", "Monstas"] * 3
 
 # Finding the intersection
