@@ -39,3 +39,8 @@ def return_hash(booklet, key)
     return result
 end
 return_hash({ :de => { :one => 'eins', :two => 'zwei', :three => 'drei'}, :en => { :one => 'one', :two => 'two', :three => 'three'}, :es => { :one => 'uno', :two => 'dos', :three => 'tres'}})
+
+# .invert to flip keys and values in a hash
+
+# THERE ARE A FEW INSTANCES THAT ARE NOT OBJECTS
+print "this is a string".is_a?(String)
