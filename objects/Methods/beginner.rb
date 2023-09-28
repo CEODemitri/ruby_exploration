@@ -12,3 +12,12 @@ puts name.upcase
 puts name.downcase
 
 puts name.length
+
+
+# UNLESS VERY NECESSARY AVOID
+    # Some Methods include a special bang \!/ at the end to modify the Object directly.
+    # ex.
+        # name = "Ruby Mobstars"
+        # puts name.downcase  <-- does not modify the Object
+        # puts name.downcase! <-- does modify the Object directly
+# UNLESS VERY NECESSARY AVOID
