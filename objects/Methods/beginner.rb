@@ -21,3 +21,16 @@ puts name.length
         # puts name.downcase  <-- does not modify the Object
         # puts name.downcase! <-- does modify the Object directly
 # UNLESS VERY NECESSARY AVOID
+
+
+
+# inspect method is available to any object in Ruby
+# returns string of representation as close to te code used to create the object
+# ex    
+    # puts 5.inspect
+    # puts "A string".inspect
+
+# ex: perfect example
+    something = [1, 2, 3]
+    puts something
+    p something
