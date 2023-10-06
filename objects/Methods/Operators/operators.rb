@@ -23,3 +23,23 @@
     # not, !
 
     # the symbols are prioritized over the word operators
+
+
+
+
+ # comparison operators
+# == returns true if both sides are equal
+# ex.   
+    #  1 == 1 * 1
+    #  "a" == "a"
+
+# the usual other operators (<, >, <=, >=)
+# comparison operators are most used with conditional statements
+# also has a <==>, spaceship operator, for custom sorting
+
+
+# Operators are Methods
+# ex. 
+    # number = 2 - 3 / 6
+    # translates to
+    # number = 2.-(3./(6))
