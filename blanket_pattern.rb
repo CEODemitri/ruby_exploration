@@ -163,4 +163,14 @@ lines.times do |i|
 end
 
 
+# attempt 14, almost on my own. i missed the quotation marks for the banner string and the .times method.
+# 50% fail from my own thoughts after two weks no practice
+banner = "{((----&0&-----)}"
+lines = 20
 
+lines.times do |i|
+    first = banner[0]
+    last = banner[1..-1]
+    banner = last + first
+    puts banner
+end
