@@ -63,3 +63,23 @@ def even_elements(input_array)
     result = input_array.select { |number| number.even? }
     return result
 end
+
+# my own // while viewing the code above smh
+# define a method that takes an array and returns the odd numbers
+def odd_elements(input_array)
+    result = []
+    result = input_array.select { |number| number.odd? }
+    return result
+end
+
+
+
+
+# inversion of control
+# blocks have the ability to hand off control of a method to programmer
+
+
+# iterators
+# methods on arrays and hashes take a block are called iterators
+# they iterate over the array, take each element one by one and perform a action
+# they are chainable
