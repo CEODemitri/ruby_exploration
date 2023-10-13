@@ -83,3 +83,15 @@ end
 # methods on arrays and hashes take a block are called iterators
 # they iterate over the array, take each element one by one and perform a action
 # they are chainable
+
+# even reversed
+def even_reversed(input_array)
+  result = []
+  # Start your code here
+  result = input_array.select { |number| number.even?}
+  result.reverse!
+  return result
+end
+
+# my answer work but this is better.
+result = input_array.select { |input_array| input_array.even? }.reverse
