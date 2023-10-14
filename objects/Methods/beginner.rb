@@ -1,6 +1,6 @@
 # Methods are an Objects Behavior
 # Objects Methods are things the Object can do (call a method)
-object.method
+# object.method
 
 # Methods Depend on the Class Type; Strings have many Methods
 # ex. 
@@ -34,3 +34,13 @@ puts name.length
     something = [1, 2, 3]
     puts something
     p something
+
+
+
+#  map syntax
+array = ['a', "b", "c"]
+p array.map { |string| string.upcase }
+puts array.map { |string| string.upcase }
+
+# for every element /map\ in array /|n|\ perform this function /n *2\
+p array.map {  |n| n * 2 }
