@@ -95,3 +95,35 @@ end
 
 # my answer work but this is better.
 result = input_array.select { |input_array| input_array.even? }.reverse
+
+
+# prctice problem, output the array with the same ampunt of stars per number, per row
+array = [
+    [1, 2, 3],
+    [2, 2, 2],
+    [3, 2, 1]
+  ]
+  
+  # Start your code here
+  # terrible first attempt, quit at line 10
+  # result = []
+  # result = array.map { |ray|ray}
+  
+  # copy and paste
+  # lines = array.map do |row| 
+  #   row.map { |number| "*" * number }.join(" ") 
+  # end
+  
+  # lines.each { |line| puts line }
+  
+  
+  
+  # rewriting to just practice how it feels to code, smh
+  # new variable set equals for every element in array, use row as a iterator
+  lines = array.map do |row|
+  # for each row, map out each element called number and then multiply number by *, rejoin the array with space between
+    row.map { |number| "*" * number }.join(" ")
+  end
+  
+  # now print each line from the map method, from the array variable
+  lines.each { |line| puts line }

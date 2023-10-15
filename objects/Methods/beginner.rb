@@ -44,3 +44,7 @@ puts array.map { |string| string.upcase }
 
 # for every element /map\ in array /|n|\ perform this function /n *2\
 p array.map {  |n| n * 2 }
+
+
+cards = ['A', 'K', 'Q', 'J', '2']
+p cards.shuffle
