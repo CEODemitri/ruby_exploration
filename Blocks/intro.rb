@@ -127,3 +127,8 @@ array = [
   
   # now print each line from the map method, from the array variable
   lines.each { |line| puts line }
+
+  array = ["value", "prize", "hero"]
+
+#   fresh off work, I have grasped the concept of blocks and this is my first guess remembering.
+  new_array = arrap.map {|e| e.upcase}
