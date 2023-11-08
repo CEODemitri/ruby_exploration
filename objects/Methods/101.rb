@@ -13,5 +13,9 @@
 
 
 # Chaining methods
-# obvious
+# obvious.duh.exactly
 # returns new object each method
+
+
+# THERE ARE A FEW INSTANCES THAT ARE NOT OBJECTS
+print "this is a string".is_a?(String)

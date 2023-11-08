@@ -48,3 +48,13 @@ p array.map {  |n| n * 2 }
 
 cards = ['A', 'K', 'Q', 'J', '2']
 p cards.shuffle
+
+
+# all below here is a revisit after 11/7/2023
+numerals = ['i', 'v', 'x', 'c']
+p numerals.map { |numeral| numeral.upcase }
+puts numerals.map { |numeral| numeral.to_s << "hello" }
+
+
+dreams = [1, 3, 6, 7, 8]
+p dreams.map { |n| n * 3 }

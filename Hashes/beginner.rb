@@ -33,14 +33,22 @@ dictionary[:four] = 'cuatro'
 
 booklet = { :de => { :one => 'eins', :two => 'zwei', :three => 'drei'}, :en => { :one => 'one', :two => 'two', :three => 'three'}, :es => { :one => 'uno', :two => 'dos', :three => 'tres'}}
 
-def return_hash(booklet, key)
-    result = []
-    result = booklet[key].keys
-    return result
-end
-return_hash({ :de => { :one => 'eins', :two => 'zwei', :three => 'drei'}, :en => { :one => 'one', :two => 'two', :three => 'three'}, :es => { :one => 'uno', :two => 'dos', :three => 'tres'}})
+#  FIX! 11/7/23
+# def return_hash(booklet, key)
+#     result = []
+#     result = booklet[key].keys
+#     return result
+# end
+# return_hash({ :de => { :one => 'eins', :two => 'zwei', :three => 'drei'}, :en => { :one => 'one', :two => 'two', :three => 'three'}, :es => { :one => 'uno', :two => 'dos', :three => 'tres'}})
 
 # .invert to flip keys and values in a hash
 
-# THERE ARE A FEW INSTANCES THAT ARE NOT OBJECTS
-print "this is a string".is_a?(String)
+
+
+# all below here is a revisit after 11/7/2023
+fine = {
+    :emal => 'yes',
+    :eym => 'no',
+    :bca => 'used-too'
+}
+puts fine[:emal]
