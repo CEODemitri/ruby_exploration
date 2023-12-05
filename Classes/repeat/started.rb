@@ -42,14 +42,16 @@ class Shopper
   
     # print cart
     def print_cart
-      @cart.each do |item|
-        puts item.item
+      @cart.each do |_item|
+        # fix this line to print the whole cart as an Array
+        p @cart
       end
     end
-  end
-
-  greg = Shopper.new("Thomas")
-  p greg
+end
+  
+greg = Shopper.new('Thomas')
+p greg
   # my text is not working. FIX
-  greg.add_to_cart("tomato")
-  greg.print_cart
+p greg.add_to_cart('grapes')
+p greg.add_to_cart('onion')
+greg.print_cart
