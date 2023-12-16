@@ -18,8 +18,6 @@ end
 # use the new method
 big_cats = Animal.new
 
-
-# challenge make my code match the output someway
 # copy and paste from geeks 4 geeks
 # Ruby program to illustrate the passing 
 # parameters to new method
