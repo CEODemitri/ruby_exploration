@@ -2,7 +2,8 @@
 
 ## Classes
 
-1. basic form
+1. <!-- basic form -->
+
    class Person
    end
 
@@ -26,6 +27,7 @@ puts number + 2
 puts number
 
 3. class: numeric
+   a. working with numbers
 
 4. class: string
 
