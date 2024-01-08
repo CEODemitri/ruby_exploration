@@ -9,4 +9,8 @@ FOUND: wikibooks
 
 ## 82% complete with ruby course, eager to start over (haha)
 
-after a monh hiatus, ready to takle and learn more. As i stated in the escapeSequence file (First rb program back), much more progress is neccesary
+after a month hiatus, ready to takle and learn more. As i stated in the escapeSequence file (First rb program back), much more progress is neccesary
+
+# RINSE AND REPEAT DUE, will follow Youtube tutorial.
+
+Feeling experienced, but more repetition is needed. Setting goals..
