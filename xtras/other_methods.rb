@@ -23,3 +23,13 @@ p art.methods.sort
 p art.start_with?
 p art.start_with?("a")
 p art.start_with?("c")
+
+
+
+# parameter vs arguement
+def add_two(number)
+    number + 2
+end
+  
+puts add_two(3)
+# here number is the parameter and 3 is an arguement
