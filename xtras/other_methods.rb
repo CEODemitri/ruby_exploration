@@ -16,3 +16,10 @@ p nums.include?(2)
 string = "okay"
 p string.methods.sort
 p nums.methods.sort
+
+
+art = "ceoDemitri"
+p art.methods.sort
+p art.start_with?
+p art.start_with?("a")
+p art.start_with?("c")
