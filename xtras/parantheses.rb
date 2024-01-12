@@ -21,3 +21,22 @@ def greeting()
   end
   
 greeting()
+
+
+# my own practice
+def pattern
+  puts "#--__--#"
+end
+
+pattern
+
+def logic(x)
+  if x==4
+    puts "Hello"
+  else 
+    puts "Nooo"  
+  end
+end
+
+  logic 4
+  logic 5
