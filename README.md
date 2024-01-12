@@ -14,3 +14,9 @@ after a month hiatus, ready to takle and learn more. As i stated in the escapeSe
 # RINSE AND REPEAT DUE, will follow Youtube tutorial.
 
 Feeling experienced, but more repetition is needed. Setting goals..
+
+## why learn ruby?
+
+I like the color, symbol, and name; first attraction. As i've been studying the language, I often hear, "easy to learn, easy to use".
+
+1. build dynamic web sites
