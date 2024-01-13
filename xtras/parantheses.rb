@@ -40,3 +40,20 @@ end
 
   logic 4
   logic 5
+
+
+# thoought process for new method
+# name ; name the method after what the method does
+def format_name
+end
+
+# parameter ; does the method need any information 
+def format_names(first, last)
+  # ...
+end
+
+# repeat, method process
+# what does it do ; name
+# need extra info ; parameters
+# ident two spaces on the line btween def and end ; write code
+
