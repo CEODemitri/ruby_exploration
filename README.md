@@ -9,7 +9,7 @@ FOUND: wikibooks
 
 ## 82% complete with ruby course, eager to start over (haha)
 
-after a month hiatus, ready to takle and learn more. As i stated in the escapeSequence file (First rb program back), much more progress is neccesary
+## after a month hiatus, ready to takle and learn more. As i stated in the escapeSequence file (First rb program back), much more progress is neccesary
 
 # RINSE AND REPEAT DUE, will follow Youtube tutorial.
 
@@ -20,3 +20,5 @@ Feeling experienced, but more repetition is needed. Setting goals..
 I like the color, symbol, and name; first attraction. As i've been studying the language, I often hear, "easy to learn, easy to use".
 
 1. build dynamic web sites
+
+2. am i utilizing ruby to it's full extent? I am sstudying Javascript, Python amongst a few frameworks with specific syntax (svelte, react). what is ruby for me?

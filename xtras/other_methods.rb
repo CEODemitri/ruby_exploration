@@ -17,14 +17,15 @@ string = "okay"
 p string.methods.sort
 p nums.methods.sort
 
-
+# variable methods? or string methods?
 art = "ceoDemitri"
 p art.methods.sort
 p art.start_with?
 p art.start_with?("a")
 p art.start_with?("c")
 
-
+array = []
+p array.methods.sort
 
 # parameter vs arguement
 def add_two(number)
@@ -33,3 +34,13 @@ end
   
 puts add_two(3)
 # here number is the parameter and 3 is an arguement
+
+
+# test if two arrays are equal
+input = ["hannah", "raven", "LB"]
+input2 = ["wife", "gf", "soul"]
+
+def equal_arrays(input, input2)
+    result = input.eql? input2
+    return result
+end

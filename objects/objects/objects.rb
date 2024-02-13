@@ -48,4 +48,26 @@ end
 xveh = Vehicle. new("1", "Red", "ABC")
 yveh = Vehicle. new("2", "Black", "XYZ")
 # copy and paste from geeks 4 geeks
+
+
+# Using Above for reference
+class Country
+
+    #initialize method
+    def initialize(id, name, size)
+
+    # variables
+    @country_id = id
+    @country_name = name
+    @country_size = size
+    
+    # using the values from the method above
+    puts "ID is: #@country_id"
+    puts "Name is: #@country_name"
+    puts "Size of #@country_name is: #@country_size"
+    puts "\n"
+    end
+end
+
+demitriRica = Country.new("13", "demitriRica", "55")
     
