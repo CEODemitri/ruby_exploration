@@ -11,3 +11,18 @@ module Encryption
 end
 
 # the private keyword tells Ruby that all methods defined from now on are supposed to be private. They can be called from within the object but not from outside
+
+# all methods defined after private keyword are private
+class Test
+  def foo
+    puts "Private method called"
+  end
+  private
+  def bar
+  end
+  def foobar
+  end
+end
+test1 = Test.new
+puts test1.foo
+
