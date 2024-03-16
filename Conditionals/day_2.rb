@@ -43,7 +43,7 @@ puts message(445)
 
 # recap of hash, nil, dictionaries
 dictionary = { :one => "eins", :two => "zwei"}
-p dictionar[:four]
+p dictionary[:four]
 # output : nil
 
 # predicate methods, end with a question mark and return true or false
