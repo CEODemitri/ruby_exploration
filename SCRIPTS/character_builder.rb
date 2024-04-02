@@ -17,8 +17,7 @@ puts " "
 puts " "
 
 puts "What type of Character Would You Like to Build?"
-character = gets.chomp
-character.titleize!
+character = gets.chomp.capitalize!
 puts " "
 
 confirm = ["Cool", "Perfect", "Interesting Choice", "Powerful"]
