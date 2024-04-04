@@ -16,12 +16,20 @@ def main
     name = gets.chomp
 
     greetings = ["Hallo ", "Que Pasa ", "My Round ", "Wifey ", "Bonjour ", "Salve ", "Konnichiwa "]
-    character = prompt.select(greetings.sample + name + "! Welcome to Character Builder. We have a suit of four characters to begin. What type of Character Would You Like to Build?", %w(Ninja, Tech, Fantasy, Elemental))
+    character = prompt.select(greetings.sample + name + "! Welcome to Character Builder. We have a suit of four characters to begin. What type of Character Would You Like to Build?", %w(Ninja Tech Fantasy Elemental))
     puts " "
     puts " "
 
     confirm = ["Cool", "Perfect", "Interesting Choice", "Powerful"]
     puts confirm.sample + "! You selected " + character + ". Let's Begin."
+
+    character_name = prompt.ask("What is the character's Name? ") do |i|
+        i.required true
+        i.validate /\A\w+\Z/
+        i.modify    :capitalize
+    end
 end
 
 main if __FILE__ == $PROGRAM_NAME
+
+# run the file with ./main.rb
