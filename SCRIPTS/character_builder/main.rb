@@ -28,6 +28,25 @@ def main
         i.validate /\A\w+\Z/
         i.modify    :capitalize
     end
+
+    # game to earn skill points. max points 250+ 
+
+    # math quiz based 
+
+    # each character has three random sets of posible skill point sets picked on random
+
+    # list the users randomly selected skill set chose from earlier above
+    # Ninja: Tech: Fantasy: Elemental:
+    
+    # "lets edit the attributes" - prompt
+    
+    # slider for each corresponding attributes based on user ccharacter type selection
+
+    # create a sample story using all attributes
+
+    # create another character
+        # if no end game
+
 end
 
 main if __FILE__ == $PROGRAM_NAME
