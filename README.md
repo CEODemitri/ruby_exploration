@@ -1,37 +1,18 @@
-# note to self
+- [ ] add structure to repo before moving on.
 
-if revising, best to find and use the corresponding file instead of making a new one. this entire file is huge enough
+## Contents
 
-## to do
+1.  Ruby For Beginners
+    Following a course by Educative; 80% in I realized it was following the Ruby for Beinners Book by the letter.
 
-find a suitable ruby doc or book and follow while wrapping up the educative course.
-FOUND: wikibooks
+2.  ALGORITHM
+    My own code working through algorithms.
 
-## 82% complete with ruby course, eager to start over (haha)
+3.  wikibooks for refresher on basics
 
-## after a month hiatus, ready to takle and learn more. As i stated in the escapeSequence file (First rb program back), much more progress is neccesary
-
-# RINSE AND REPEAT DUE, will follow Youtube tutorial.
-
-Feeling experienced, but more repetition is needed. Setting goals..
-
-## why learn ruby?
-
-I like the color, symbol, and name; first attraction. As i've been studying the language, I often hear, "easy to learn, easy to use".
-
-1. build dynamic web sites
-
-2. am i utilizing ruby to it's full extent? I am sstudying Javascript, Python amongst a few frameworks with specific syntax (svelte, react). what is ruby for me?
+4.  SCRIPTS
+    Having fun, writing real programs with ruby.
 
 ---
 
-# UPDATE
-
-# Accomplished:
-
-1. application as an executable
-2. inline code to use Ruby interpreter to run the script
-
-## Tools
-
-1. tty-prompt
+# to do
