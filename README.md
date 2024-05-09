@@ -8,10 +8,12 @@
 2.  ALGORITHM
     My own code working through algorithms.
 
-3.  wikibooks for refresher on basics
-
-4.  SCRIPTS
+3.  SCRIPTS
     Having fun, writing real programs with ruby.
+
+4.  WEBAPPS4BEGINNERS
+
+## Current
 
 ---
 
