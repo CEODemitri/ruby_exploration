@@ -11,3 +11,13 @@ p localTime.mday
 p localTime.month
 p localTime.year
 p localTime.wday
+
+# erb
+# certain tags have special rules
+# <% %> for ruby code
+# <%= %> replace with result
+# <%# %> for comments
+# % line of ruby code
+# %% replaced with % 
+# <%% or %%> -- replace with <% or %> respectively
+# %Q/ %q/ %W/ %w/ %x/ %X/
