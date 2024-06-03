@@ -15,12 +15,12 @@ def main
     puts "What is your name: "
     name = gets.chomp
 
-    greetings = ["Hallo ", "Que Pasa ", "My Round ", "Wifey ", "Bonjour ", "Salve ", "Konnichiwa "]
+    greetings = ["Hallo ", "Que Pasa ", "My Round ", "Wassup", "Bonjour ", "Salve ", "Konnichiwa "]
     character = prompt.select(greetings.sample + name + "! Welcome to Character Builder. We have a suit of four characters to begin. What type of Character Would You Like to Build?", %w(Ninja Tech Fantasy Elemental))
     puts " "
     puts " "
 
-    confirm = ["Cool", "Perfect", "Interesting Choice", "Powerful"]
+    confirm = ["Cool", "Perfect", "Interesting Choice", "Powerful", "Unique", "Excellent"]
     puts confirm.sample + "! You selected " + character + ". Let's Begin."
 
     character_name = prompt.ask("What is the character's Name? ") do |i|
@@ -29,23 +29,21 @@ def main
         i.modify    :capitalize
     end
 
-    # game to earn skill points. max points 250+ 
+    # use colorize to make this statement standout
+    puts "ATTRIBUTES AND SKILLS"
+    puts "Be mindful when selecting; Each option affects the other!"
 
-    # math quiz based 
+    # pick a height range
+    # weight range
+    # pick wear type
+    # tool selection
+    # random element & element color
+    # random skill attributes set [speed, source, power, witts, stealth, defense, health]
 
-    # each character has three random sets of posible skill point sets picked on random
+    # print character
+    # save character to database?
 
-    # list the users randomly selected skill set chose from earlier above
-    # Ninja: Tech: Fantasy: Elemental:
     
-    # "lets edit the attributes" - prompt
-    
-    # slider for each corresponding attributes based on user ccharacter type selection
-
-    # create a sample story using all attributes
-
-    # create another character
-        # if no end game
 
 end
 
