@@ -16,7 +16,22 @@ Edits
    c. For Loop
 2. file: Loops.rb
 
+---
+
 7 4
 Edits
 
 1.  one extra loop practice and while loop intro with small example
+
+---
+
+7 10
+Edits
+
+1. 1 measly while loop. I've been studying Ruby for how many months? 1 year?
+
+## ToDo
+
+1. Add complexity and run thru this refresher/cementer.
+
+---

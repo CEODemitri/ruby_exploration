@@ -27,3 +27,27 @@ while j < 10 do
 	puts "j is #{j}"
 	j += 1
 end
+
+# 
+# While loop refresh
+p 'While Loop pt2'
+x = 0
+while x < 10 do
+	puts "x is now #{x}"
+	x += 1
+end
+
+# 
+p ''
+p 'Pt.1'
+runner = 10
+p "2024 Race: We have #{runner}"
+while runner > 0 do
+	puts "Race not complete. #{runner} still running."
+	runner -= 1
+end
+p 'Race Complete!'
+
+# 
+p ''
+p 'Pt.2'
