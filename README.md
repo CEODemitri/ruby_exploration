@@ -2,7 +2,7 @@
 Study of the Programming Language using a few Resources.
 0. Ruby For Beginners (book)
 1. Web Apps for Beginners (book)
-2. THe Odin Project / Ruby Curriculum
+2. The Odin Project / Ruby Curriculum
 3. Algorithms (Google search)
 ---
 
