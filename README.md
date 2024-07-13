@@ -1,8 +1,13 @@
-# Ruby 
-while I am cleaning my world up, this repo seems to be my attempt to study Intermediate/Advanced Ruby.
+# Becoming Proficient with Ruby 
+Study of the Programming Language using a few Resources.
+0. Ruby For Beginners (book)
+1. Web Apps for Beginners (book)
+2. The Odin Project / Ruby Curriculum
+3. Algorithms (Google search)
 ---
- 
-6 26 24 && 1030pm
+
+## 6 26 24 && 1030pm
+
 ## Focus of Repo
 
 Algorithm - Each Algo is a file of its own. Find a concept, explain the concept and practice === one file.
@@ -12,3 +17,7 @@ WebApps4Beginners - Complete Book from Start  to Finish. If Familiar or old cont
 1. Plan A track, Refresh and Complete.
   
 Ruby4Beginners - COMPLETED. This is a good manual for my own reference. No need to edit.
+
+
+### Logs 
+
