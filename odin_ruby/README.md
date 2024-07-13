@@ -35,3 +35,14 @@ Edits
 1. Add complexity and run thru this refresher/cementer.
 
 ---
+
+7 11
+Edits
+
+1. 3 while loops refresher
+
+## ToDo
+
+1. example from phone, chatgpt
+
+---

@@ -49,5 +49,28 @@ end
 p 'Race Complete!'
 
 # 
-p ''
+puts ''
 p 'Pt.2'
+
+# now i know better
+# puts '\n Pt.2' -- my atetmpt
+puts ""
+puts 'Pt.2'
+
+# 7 12
+# While loop
+berries = 0
+while berries < 10 do
+	puts "I have #{berries} now!"
+	berries += 1
+end
+
+# While loop to ask a question until desired answer
+while gets.chomp != "yes" do
+	puts "Are we there yet?"
+end
+
+# own practice
+while gets.chomp != "n" do
+	puts "Should I Keep Going?"
+end
