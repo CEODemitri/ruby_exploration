@@ -74,3 +74,35 @@ end
 while gets.chomp != "n" do
 	puts "Should I Keep Going?"
 end
+
+# 7 17 24 
+# UNTIL loop
+# Opposite of while, will continue until condition is false
+# useful to switch between less readable !-(not)
+
+cash = 0
+until cash >= 10 do
+	puts "cash is #{cash}"
+	cash += 1
+end
+
+until gets.chomp == "yes" do
+	puts "Like Pizza?"
+end
+
+# RANGE 
+# (1..5)  inclusive range: 1, 2, 3, 4, 5
+# (1...5) exclusive range: 1, 2, 3, 4
+
+# TIME loop
+5.times do
+	puts "Hello World"
+end
+
+5.times do |number|
+	puts "Alternative fact number #{number}"
+end
+
+# upto and downto
+5.upto(10) { |num| print "#{num} " }
+10.downto(5) { |num| print "#{num} " }
