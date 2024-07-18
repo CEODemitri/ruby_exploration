@@ -53,3 +53,10 @@ Edits
 1. Until, times, upto and downto
 
 ---
+
+7 18 24
+Edits
+
+1. Array.rb
+
+---
