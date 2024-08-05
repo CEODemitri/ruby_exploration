@@ -39,3 +39,19 @@ else
     p "What are we doing here?"
 end
 
+8 5 24 ---> Calibration
+One by One go through each listing
+
+if 
+if expr [then]
+
+a = 'Hannah'
+b = 'mye'
+
+if a < b 
+    p "I Choose " + a
+else
+    p "I Choose " + b
+end
+# ruby says a is less then z
+
