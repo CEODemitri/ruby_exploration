@@ -60,3 +60,16 @@ p funny_comics.methods
 # 
 # ASSIGNMENT
 # TODO : READ THE DOCUMENTATION
+# indexes
+# creating arrays
+plain = {literal: [1, 'one', :one, [2, 'two', :two]]}
+w = {literal => %w[foo bar baz]}
+i = %i[foo bar baz]
+# kernel
+fish = Array(["a", "b"])
+apple = Array(1..5)
+keys = Array(key: :value)
+empty = Array(nil)
+Array({:a => "a", :b => "b"}) # => [[:a, "a"], [:b, "b"]]
+# multidimensional Array
+Array.new(3) {Array.new(3)}
