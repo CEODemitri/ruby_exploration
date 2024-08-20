@@ -67,3 +67,23 @@ Edits
 1. Array.rb continued
 
 ---
+
+8 05
+
+1. Array.rb Complete and Review
+
+---
+
+8 06
+
+1. Array Documentation: 40% walkthrough. a lot to absorb
+   [https://docs.ruby-lang.org/en/3.3/Array.html]
+
+---
+
+8 16
+Work Smarter
+
+1. Completed Basic Data Types in one sitting! Review File then go to the Next section: Variables
+
+---

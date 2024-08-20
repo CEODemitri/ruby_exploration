@@ -21,3 +21,11 @@ WebApps4Beginners - Complete Book from Start to Finish. If Familiar or old conte
 1. Plan A track, Refresh and Complete.
 
 Ruby4Beginners - COMPLETED. This is a good manual for my own reference. No need to edit.
+
+---
+
+8 16
+
+# I will Master Ruby
+
+I wonder why I wish to study Ruby, for sure, I may never be asked to Use such Skill. I think it's more stubborn than any excuse. I Wish to be a better Programmer By All Means. Shrinking my study Span? Stay Confident and Ignorant?
