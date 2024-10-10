@@ -21,3 +21,19 @@ new_string = gets.chomp
 
 # ---
 # assignment
+# Ruby - File I/0
+
+# output one character
+str = "Chili"
+putc str
+
+# print output sameline vs puts newline
+print "oh my"
+print str
+
+
+# create a new file
+# syntax
+myfile = File.new("filename", "mode")
+# process the file
+myfile.close
