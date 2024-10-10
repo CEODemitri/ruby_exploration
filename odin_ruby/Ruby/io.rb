@@ -1,3 +1,5 @@
+#!/usr/bin/ruby
+
 # notes
 # print vs puts
 # print keeps things on one line
@@ -31,9 +33,27 @@ putc str
 print "oh my"
 print str
 
-
+puts "\n"
 # create a new file
 # syntax
-myfile = File.new("filename", "mode")
-# process the file
-myfile.close
+# myfile = File.new("filename", "mode")
+# # process the file
+# myfile.close
+
+testFile = File.new('test.txt', 'w')
+testFile.puts 'This is a test.'
+testFile.close
+
+# use the syswrite method
+aFile = File.new("testTwo.txt", "w")
+if aFile
+  aFile.syswrite("This is a test.\n")
+  aFile.close
+else 
+  puts "unable to open file!"
+end
+
+# The IO.readlines Method
+arr = IO.readlines('test.txt')
+puts arr[0]
+puts arr[1]
