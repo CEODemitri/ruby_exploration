@@ -11,6 +11,11 @@
 # CREATION
 # 1. array literal
 num_array = [1, 2, 3, 4, 5]
+cart = ["oranges", "bananas", "grapes"]
+cart.first 
+cart.last
+cart << "greens"
+puts cart
 
 # 2. Array.new
 # two optional arguemnts (intial size and default value)
