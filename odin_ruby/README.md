@@ -10,3 +10,9 @@ IO 9 23 24
 
 10 22 24
 Conditional Logic Section complete
+
+10 27 24
+Loops Complete
+
+10 29 24
+Array and Hash Complete
