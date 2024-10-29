@@ -61,6 +61,6 @@ new_hash.merge(another_hash)
 #   toyota: "Corolla",
 #   nissan: "Altima"
 # }
-
+# more performant to use symbols for keys
 
 
