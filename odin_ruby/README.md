@@ -16,3 +16,8 @@ Loops Complete
 
 10 29 24
 Array and Hash Complete
+
+10 30 24
+Started on methods in ruby.
+
+0. ruby is pure oop so all methods refer to an object so

@@ -1,9 +1,9 @@
 # THE HASH
 # Array's Supercharged Cousin
-# More advanced Collections of data and are similar to objects in Javascript snf dictionaries in Python
+# More advanced Collections of data and are similar to objects in Javascript and dictionaries in Python
 #
 # 0. what is a hash
-# 1. describe how to create a new hash amd add information
+# 1. describe how to create a new hash and add information
 # 2. explain what keys and values are
 # 3. describe how to change and delete data inside a hash
 # 4. describe how to merge two hashes
@@ -22,11 +22,12 @@ another_hash = Hash.new
 new_hash["name"]  
 # #=> "Meya"
 # 
-## if no value will return nil
+
 
 # even better to access
 new_hash.fetch("love")
-
+# #=> nil
+### if no key will return nil
 
 # Adding new key-value pairs
 new_hash["hobby"] = "reading"
@@ -49,6 +50,7 @@ new_hash.merge(another_hash)
 #
 
 # symbols as hash keys
+# more performant to use symbols for keys
 # 'Rocket' syntax
 # american_cars = {
 #   :chevrolet => "Corvette",
