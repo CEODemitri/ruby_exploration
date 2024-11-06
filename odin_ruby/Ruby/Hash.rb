@@ -57,12 +57,7 @@ new_hash.merge(another_hash)
 #   :ford => "Mustang",
 #   :dodge => "Ram"
 # }
-# 'Symbols' syntax
-# japanese_cars = {
-#   honda: "Accord",
-#   toyota: "Corolla",
-#   nissan: "Altima"
-# }
+#
 # more performant to use symbols for keys
 
 
