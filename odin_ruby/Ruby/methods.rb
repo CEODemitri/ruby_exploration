@@ -104,3 +104,26 @@ puts x #=> 400
 
 # 
 # Chaining Methods
+phrase = ["be", "to", "not", "or", "be", "to"]
+puts phrase.reverse.join(" ").capitalize
+
+# 
+# Predicate methods
+# naming convention for methods that return a boolean value
+puts 10.even?
+puts 55.odd?
+puts 22.between?(20, 25)
+
+# 
+# Bang methods
+# calling a method does not modify the original value of object.
+# ** DO NOT WANT methods to overwrite objects
+whisper = "HOW WE DO IT"
+puts whisper.downcase #=> "how we do it"
+puts whisper #=> "HOW WE DO IT"
+# reassignment with a !
+puts whisper.downcase! #=> "how we do it"
+puts whisper #=> "how we do it"
+
+# complete
+# http://ruby.bastardsbook.com/chapters/methods/
