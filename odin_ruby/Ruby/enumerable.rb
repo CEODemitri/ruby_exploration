@@ -27,3 +27,18 @@ p fruits.select { |fruit| fruit != 'grapes' }
 # even better, right to the point use reject
 p fruits.reject { |fruit| fruit == 'kiwi' }
 # => ['apples', 'oranges', 'grapes']
+
+# the each method
+# each is the granddad of enumerables 
+fruits.each { |fruit| puts "i have " + fruit }
+# **block variable** => fruit
+
+# more complicated then one line use
+# do...end
+fruits.each do |fruit|
+    fruit = fruit.upcase
+    puts "New company: #{fruit}."
+end
+
+# start here on course
+ #each also works for hashes with a bit of added functionality. By default, each iteration will yield both the key and value individually or together (as an array) to the block depending on how you define your block variable:
