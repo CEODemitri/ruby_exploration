@@ -40,5 +40,17 @@ fruits.each do |fruit|
     puts "New company: #{fruit}."
 end
 
-# start here on course
- #each also works for hashes with a bit of added functionality. By default, each iteration will yield both the key and value individually or together (as an array) to the block depending on how you define your block variable:
+# each aslso works great with hashes. default will yield both key and value 
+my_hash = { "one" => 1, "two" => 2 }
+my_hash.each { |pair| puts "the pair is #{pair}"}
+
+# or individually
+my_hash.each { |key, value | puts "#{key} is #{value}"}
+
+# each_with_index :: a bit more complex, placeholder for index in addition to variable so more wiggle room
+
+fruits.each_with_index { |fruit, index| puts fruit if index.even? }
+
+# start here at section title
+# the map method
+
