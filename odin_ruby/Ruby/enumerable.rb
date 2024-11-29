@@ -40,7 +40,7 @@ fruits.each do |fruit|
     puts "New company: #{fruit}."
 end
 
-# each aslso works great with hashes. default will yield both key and value 
+# each also works great with hashes. default will yield both key and value 
 my_hash = { "one" => 1, "two" => 2 }
 my_hash.each { |pair| puts "the pair is #{pair}"}
 
@@ -53,4 +53,11 @@ fruits.each_with_index { |fruit, index| puts fruit if index.even? }
 
 # start here at section title
 # the map method
-
+# map method specifically transforms each element from an array according to block passed and returns transformed elements in a new array
+# 
+# map method example 0
+cars = ["lambo", "ferrari", "lotus"]
+p cars.map { |car| car.upcase }
+p cars
+puts cars
+# => ["LAMBO", "FERRARI", "LOTUS"]
