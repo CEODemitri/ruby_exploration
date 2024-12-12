@@ -58,6 +58,33 @@ fruits.each_with_index { |fruit, index| puts fruit if index.even? }
 # map method example 0
 cars = ["lambo", "ferrari", "lotus"]
 p cars.map { |car| car.upcase }
-p cars
-puts cars
-# => ["LAMBO", "FERRARI", "LOTUS"]
+p cars # => ["lambo", "ferrari", "lotus"]
+puts cars # => lambo \n ferrari \n lotus
+
+# map + gsub
+my_order = ['small Amethyst', 'large Ruby', 'giant Diamond']
+puts my_order.map { |item| item.gsub('small', 'smedium') }
+
+# singular map example
+salaries = [2200, 3000, 3200, 4100]
+p salaries.map { |salary| salary - 600 }
+
+# 
+# SELECT 
+# also called filter, passes every item in an array to a block and returns a new array with only the items for condition set as true
+# each ; the long way example
+friends = ['Peter', 'Mesh', 'Aven']
+invited_list = []
+
+friends.each do |friend|
+    if friend != 'Sharon'
+        invited_list.push(friend)
+    end
+end
+
+p invited_list
+
+# select ; faster example
+p friends.select { |friend| friend != 'Aven'}
+
+# START AT SELECT WITH HASH
