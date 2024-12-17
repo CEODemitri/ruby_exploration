@@ -88,3 +88,5 @@ p invited_list
 p friends.select { |friend| friend != 'Aven'}
 
 # START AT SELECT WITH HASH
+cars = { "pagani" => "red", "hummer" => "black", "x7" => "red"}
+puts cars.select { |car, color| color == "red"}
