@@ -90,3 +90,22 @@ p friends.select { |friend| friend != 'Aven'}
 # START AT SELECT WITH HASH
 cars = { "pagani" => "red", "hummer" => "black", "x7" => "red"}
 puts cars.select { |car, color| color == "red"}
+
+#
+# REDUCE
+# also called inject. takes array or hash and reduces to a single object
+new_numbers = [4, 13, 17, 26]
+p new_numbers.reduce { |sum, number| sum + number } 
+
+# above explanation
+# sum acts as **accumulator** .. result of each iteration stored in accumulator and then passed to next iteration. also the return value for reduce
+# may set different initial value by passing parameter
+p new_numbers.reduce(2000) { |sum, number| sum + number }
+
+# list of friends' animal relative
+animals = ["dog", "cat", "fish", "cat", "dog", "dog"]
+# set all initial hash to animal["relative"] => 0
+animals.reduce(Hash.new(0)) do |result,count|
+  result[count] += 1
+  p result
+end
