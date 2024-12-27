@@ -130,3 +130,5 @@ end
 
 p colors
 color_list(colors)
+
+#  RECAP WITH ASSIGNMENTS
