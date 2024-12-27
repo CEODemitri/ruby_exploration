@@ -109,3 +109,24 @@ animals.reduce(Hash.new(0)) do |result,count|
   result[count] += 1
   p result
 end
+
+# 
+# BANG methods
+# recap:: enumerables return new arrays and keep the original
+# #enumerable! => returns the original, modified array
+# all bang methods are destructive and modify the object called on
+
+#
+# Return values of enumerables
+# need to reuse result of an enumerable then save to a local variable
+# or even better
+# wrap enumerable in a method definition
+
+colors = ["yellow", "red", "purple", "green", "black"]
+
+def color_list(colors)
+  p colors.map { |color| color.upcase }
+end
+
+p colors
+color_list(colors)
