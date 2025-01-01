@@ -132,3 +132,16 @@ p colors
 color_list(colors)
 
 #  RECAP WITH ASSIGNMENTS
+# [ x ] read https://www.eriktrautman.com/posts/ruby-explained-map-select-and-other-enumerable-methods
+# enumerable is a ruby module packed with handy methods
+# as long as the class has its own #each method that Enumerable can use
+# gives many useful ways of iterating every element of a collection object
+# a few useful methods::
+#  each, collect, select, each_with_index, any, all, none?, find, reduce
+# full description in docs of course
+# http://ruby-doc.org/core-2.0/Enumerable.html
+# or blog post
+# http://ruby.bastardsbook.com/chapters/enumerables/
+
+# do...end
+# used for multi-line blocks when logic is more than a one-line block statement using {...}
