@@ -13,3 +13,6 @@ p select_even.include?(numbers[5]) # => false
 
 # 
 # any?
+# returns true if any element in array or hash match the condition within the block
+p numbers.any? { |number| number > 500 }
+p numbers.any? { |number| number < 20 }
