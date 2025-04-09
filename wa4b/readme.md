@@ -19,7 +19,7 @@ readme @ task manager
 2. Rubygems
 3. Bundler
 4. Ruby Load Path
-   a. Using Rubygems
+   Using Rubygems
    b. Using Bundler
 
 ### Notes
